@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebSite">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Works</title>
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootsrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="css/main.css">
+</head>
+
+<!-- seperate id for stylization -->
+
+<body id="contact" itemscope itemtype="https://schema.org/WebPage">
+    <!-- skiplinks -->
+    <div id="skip-links" aria-label="Skip links">  
+        <a href="#main-content" class="visually-hidden-focusable btn btn-primary m-2">
+            Skip to main content
+          </a>
+          <a href="#footer" class="visually-hidden-focusable btn btn-primary m-2">
+            Skip to footer  
+          </a>
+    </div>
+
+    <!-- navigation is the same -->
+    <div id="container" class="overflow-hidden">
+        <header role="banner">
+            <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Main navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <div class="container-fluid">
+                    <a class="navbar-brand mx-3" href="index.html" itemprop="url">
+                        <img src="images/decor/logo.png" alt="Sophia Fan Logo" itemprop="image">
+                    </a>
+    
+                    <!-- NAVBAR toggle -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <!-- NAV -->
+                    <div class="collapse navbar-collapse justify-content-end me-5" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav nav-underline align-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-uppercase" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-uppercase" href="works.html">Works</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-uppercase" href="#">About</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link active text-center text-uppercase" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </nav>
+        </header>
+
+        <main id="main-content" role="main" itemscope itemtype="https://schema.org/ContactPage">
+
+            <div class="row row-cols-1 row-cols-lg-2 g-4 mt-4">
+          
+                <!-- Seperate div and id names for easier seperation -->
+                <div class="col my-2 py-4" data-aos="zoom-in">
+                    <img src="images/decor/purple-grid.png" alt="" class="position-absolute z-n1 w-100 h-100" aria-hidden="true">
+
+                    <h1 class="display-1 my-3 mx-3">Contact Me:</h1>
+                    <h2 class="display-5 my-3 mx-3">Message Me</h3>
+                    <p class="mx-3" itemprop="telephone">416-856-3398</p>
+
+                    <h2 class="display-5 my-3 mx-3">Email Me</h3>
+                    <p class="mx-3" itemprop="email">fan00085@algonquinlive.com</p>
+
+                    <h2 class="display-5 my-3 mx-3">Social Media</h3>
+                        <div id="socials" class="mx-3 fs-1" aria-label="Social Media Links">
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram profile"><i class="fab fa-instagram me-3"></i></a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in me-3"></i></a>
+                            <a href="https://x.com/" target="_blank" aria-label="X (formerly Twitter) profile"><i class="fab fa-twitter me-3"></i></a>
+                          </div>
+                          
+                </div>
+            
+                <!-- contact form -->
+                <div class="col" role="form" aria-labelledby="form-heading">
+                    
+                    <form itemscope itemtype="https://schema.org/ContactForm">
+                        <meta itemprop="name" content="Contact Form">
+                        <h2 id="form-heading" class="visually-hidden">Contact Form</h2>
+
+                        <!-- Phone -->
+                        <div class="form-group mx-3">
+                          <label for="phone" class="my-2">Phone number</label>
+                          <input type="tel" class="form-control w-75" id="phone-input" placeholder="000-000-000" itemprop="telephone">
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group mx-3">
+                            <label for="email" class="my-2">Email address</label>
+                            <input type="email" class="form-control w-75" id="email-input" placeholder="name@example.com" itemprop="email">
+                          </div>
+                    
+                        <div class="form-group mx-3">
+                          <label for="message" class="my-2">Message:</label>
+                          <textarea class="form-control w-75" id="message-input" rows="12" placeholder="The reason I am writing..." itemprop="message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary mx-3 my-3">Submit</button>
+
+                      </form>
+                </div>
+        </main>
+
+            <!-- Footer, same as every page -->
+    <footer id="footer" class="bg-dark mt-5" role="contentinfo">
+        <p class="text-light py-3 ms-3">&copy;copyright sophia fan</p>
+    </footer>
+        </div>
+
+
+    <!-- script -->
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+                      
