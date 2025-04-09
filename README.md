@@ -18,5 +18,5 @@ I found this assignment much easier, thanks to Bootstrap. Everything came togeth
 
 The animation class was the most entertaining and useful. Adding movement to a website can really boost engagement and make visitors stay longer. It was also a much more visual class than others, which made it easier for me to follow along and understand. Plus, I feel like we covered more ground in that class compared to others.
 
-##Figma Link
+## Figma Link
 https://www.figma.com/design/DHRdUr1CLHvx3FCcQ9f6Rj/Hi-Prototype?node-id=0-1&t=MuO1tYqasc5Xu6wY-1
