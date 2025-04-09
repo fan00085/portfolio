@@ -1,0 +1,63 @@
+/* Colour adjust to easily change colours of bootstrap presets*/
+:root{
+    --bs-primary:#40456B;
+    --bs-secondary:#A4ACEB;
+}
+
+
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-secondary);
+    --bs-btn-border-color: var(--bs-secondary);
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+    --bs-btn-active-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-secondary);
+    --bs-btn-active-border-color: var(--bs-secondary);
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+.home-quote {
+    background-color: #A4ACEB;
+}
+
+#home-quote{
+    background-color: var(--bs-primary);
+}
+
+/* Works --- */
+
+#works .nav-pills .nav-link {
+  color: black; 
+}
+
+.nav-pills .nav-link:hover {
+  background-color: var(--bs-secondary);
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--bs-secondary);
+}
+
+i {
+    color: var(--bs-primary);
+}
+
+i:hover {
+    color: var(--bs-secondary);
+}
+
+.btn-primary {
+    --bs-btn-color: white;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+    --bs-btn-active-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-secondary);
+    --bs-btn-active-border-color: var(--bs-secondary);
+}
